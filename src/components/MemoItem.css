@@ -1,0 +1,49 @@
+.memo-item {
+  transition: all 0.3s ease;
+  border: 1px solid #dee2e6;
+}
+
+.memo-item:hover {
+  border-color: #adb5bd;
+}
+
+/* 메모 제목 스타일 */
+.memo-item .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  line-height: 1.4;
+}
+
+/* 메모 내용 스타일 */
+.memo-item .card-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.6;
+  min-height: 100px;
+}
+
+/* 메모 날짜 스타일 */
+.memo-item small {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* 수정 모드 텍스트 영역 */
+.memo-item textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+/* 버튼 그룹 스타일 */
+.memo-item .btn-group {
+  flex-shrink: 0;
+}
+
+/* 빈 상태 텍스트 */
+.memo-item .text-muted.fst-italic {
+  color: #adb5bd !important;
+}

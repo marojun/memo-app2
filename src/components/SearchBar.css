@@ -1,0 +1,19 @@
+.search-input {
+  border-left: none;
+}
+
+.search-input:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+.search-input:focus + .btn-outline-secondary,
+.input-group:focus-within .btn-outline-secondary {
+  border-color: #86b7fe;
+}
+
+/* 검색 아이콘 스타일 */
+.input-group-text {
+  background-color: #f8f9fa;
+  border-right: none;
+}
